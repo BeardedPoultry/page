@@ -58,6 +58,7 @@ ul {
 header nav li:hover,
 .select {
   color: RGBA(209, 218, 56, 1.00);
+  transition: background-color 0.5s ease;
   width: 100px;
   height: 25px;
   padding: 15px;
