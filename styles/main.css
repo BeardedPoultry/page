@@ -15,41 +15,63 @@ body {
 
 header nav li {
   display: inline-block;
-  margin-top: 50px;
-  margin-left: 25px;
-  margin-right: 25px;
+  text-align: center;
+  width: 100px;
+  height: 25px;
+  margin-top: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
   color: RGBA(137, 139, 143, 1.00);
   text-decoration: none;
   outline: none;
+  position: sticky;
 }
 ul {
     list-style-type: none;
+    text-decoration: none;
 }
 header nav li:hover {
   color: RGBA(209, 218, 56, 1.00);
+  width: 100px;
+  height: 25px;
+  padding: 15px;
   border-width: 3px;
   border-style: solid;
   border-color: RGBA(209, 218, 56, 1.00);
+  text-decoration: underline;
 }
-.twitch:hover {
+.twitch:hover,
+a:hover {
   color: RGBA(209, 218, 56, 1.00);
   text-decoration: none;
 }
 a {
   text-decoration: none;
+  color: RGBA(137, 139, 143, 1.00);
 }
 main {
   padding-left: 5%;
   padding-right: 5%;
+  color: RGBA(199, 200, 209, 1.00);
 }
-.topcol, .lowercol {
+.topcol {
+  width: auto;
+  height: 5px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background-color: RGBA(209, 218, 56, 1.00);
+}
+.lowercol {
   width: 100%;
   height: 5px;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 50px;
   background-color: RGBA(209, 218, 56, 1.00);
 }
 
 i {
   color: RGBA(209, 218, 56, 1.00);
+  margin: 15px;
 }
